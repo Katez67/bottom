@@ -36,7 +36,7 @@ module mux_4_1
   
   assign y =  (sel == 2'd0) ? d0 : 
              ((sel == 2'd1) ? d1 :
-				 ((sel == 2'd2) ? d2 : d3));
+	     ((sel == 2'd2) ? d2 : d3));
 
 
 endmodule
